@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>varshchik</title>
   <style>
     body {
@@ -12,25 +13,75 @@
       line-height: 1.5;
       color: #222;
     }
-    a { color: #1F4E79; }
-    h1 { font-weight: 400; margin-bottom: 0.5em; }
-    .papers { margin-top: 2em; }
-    .paper { margin: 1em 0; }
-    .paper-meta { color: #888; font-size: 0.9em; }
+    a {
+      color: #1F4E79;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-weight: 400;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.1em;
+      color: #555;
+      margin-top: 2.5em;
+      margin-bottom: 1em;
+    }
+    .intro p {
+      margin: 0.5em 0;
+    }
+    .paper {
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 1.3em 0;
+      margin: 1em 0;
+    }
+    .paper-title {
+      font-size: 1.02em;
+      margin-bottom: 0.4em;
+    }
+    .paper-links {
+      font-size: 0.95em;
+    }
+    .paper-links a {
+      margin-right: 0.8em;
+    }
+    footer {
+      margin-top: 4em;
+      padding-top: 1.5em;
+      border-top: 1px solid #ddd;
+      color: #888;
+      font-size: 0.85em;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <h1>varshchik</h1>
-  <p>Independent research on symbolic AI and natural language.<br>
-     <a href="https://github.com/varshchik/nsai">github.com/varshchik/nsai</a> ·
-     <a href="mailto:me@varshchik.dev">me@varshchik.dev</a></p>
+  <div class="intro">
+    <p>Independent research on symbolic AI and natural language.</p>
+    <p>
+      <a href="https://github.com/varshchik/nsai">github.com/varshchik/nsai</a> ·
+      <a href="mailto:me@varshchik.dev">me@varshchik.dev</a>
+    </p>
+  </div>
 
-  <div class="papers">
-    <h2>Papers</h2>
-    <div class="paper">
-      <a href="/papers/negation.pdf">Why negation requires no separate mechanism</a>
-      <div class="paper-meta">NSAI Independent Research · Winnipeg · May 2026</div>
+  <h2>Papers</h2>
+
+  <div class="paper">
+    <div class="paper-title">Why negation requires no separate mechanism</div>
+    <div class="paper-links">
+      <a href="https://varshchik.dev/22052026_en.pdf">PDF (EN)</a>
+      <a href="https://varshchik.dev/22052026_ru.pdf">PDF (RU)</a>
     </div>
   </div>
+
+  <footer>
+    NSAI Independent Research · Winnipeg · May 2026
+  </footer>
 </body>
 </html>
