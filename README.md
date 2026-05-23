@@ -12,7 +12,7 @@ where it makes sense to describe them publicly. No timeline.
 
 | Date | Title | EN | RU |
 |------|-------|------|------|
-| 2026-05-22 | Why negation requires no separate mechanism | [PDF](22052026/22052026_en.pdf) | [PDF](22052026/22052026_ru.pdf) |
+| 2026-05-22 | Why negation requires no separate mechanism | [PDF](22052026_en.pdf) | [PDF](22052026_ru.pdf) |
 
 ## Related
 
